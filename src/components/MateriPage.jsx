@@ -66,6 +66,35 @@ const MateriPage = () => {
         • Logaritma biner: log₂ x (basis 2)
       `,
       formula: 'log_a(xy) = log_a(x) + log_a(y)'
+    },
+    kombinatorik: {
+      title: 'Kombinatorik',
+      content: `
+        Kombinatorik adalah cabang matematika yang mempelajari cara menghitung dan mengatur objek-objek.
+
+        ATURAN PERKALIAN DAN PENJUMLAHAN:
+
+        Aturan Perkalian:
+        Jika suatu kejadian dapat terjadi dengan m cara, dan kejadian lain dapat terjadi dengan n cara, maka kedua kejadian tersebut dapat terjadi bersama-sama dengan m × n cara.
+
+        Aturan Penjumlahan:
+        Jika suatu kejadian dapat terjadi dengan m cara atau kejadian lain dapat terjadi dengan n cara (tidak bersamaan), maka salah satu dari kedua kejadian tersebut dapat terjadi dengan m + n cara.
+
+        PERMUTASI:
+        Permutasi adalah susunan objek-objek dimana urutan diperhatikan.
+
+        • Permutasi n objek: P(n,n) = n!
+        • Permutasi r dari n objek: P(n,r) = n!/(n-r)!
+        • Permutasi dengan pengulangan: n!/n₁!n₂!...nₖ!
+
+        KOMBINASI:
+        Kombinasi adalah pemilihan objek-objek dimana urutan tidak diperhatikan.
+
+        • Kombinasi r dari n objek: C(n,r) = n!/(r!(n-r)!)
+        • Sifat: C(n,r) = C(n,n-r)
+        • Segitiga Pascal: C(n,r) = C(n-1,r-1) + C(n-1,r)
+      `,
+      formula: 'P(n,r) = n!/(n-r)! dan C(n,r) = n!/(r!(n-r)!)'
     }
   };
 
